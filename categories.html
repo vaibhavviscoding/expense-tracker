@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categories</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="add-expense.html">Add Expense</a>
+    <a href="categories.html" class="active">Categories</a>
+    <a href="signup.html">Sign Up</a>
+  </nav>
+
+  <header>
+    <h1>Manage Categories</h1>
+  </header>
+
+  <main>
+    <form id="category-form">
+      <label for="category">New Category:</label>
+      <input type="text" id="category" name="category" required>
+      <button type="submit">Add Category</button>
+    </form>
+
+    <div class="category-list">
+      <h2>Existing Categories</h2>
+      <ul id="category-list"></ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Expense Tracker</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
